@@ -54,15 +54,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BusinessEntiies\BusinessEntiies.csproj">
+    <ProjectReference Include="..\BusinessEntiies\BusinessEntiies.csproj">
       <Project>{1e636eb6-ce41-4023-9a17-e2642c216ae4}</Project>
       <Name>BusinessEntiies</Name>
     </ProjectReference>
-    <ProjectReference Include="DataAccessObject\DataAccessObject.csproj">
+    <ProjectReference Include="..\DataAccessObject\DataAccessObject.csproj">
       <Project>{b2fd47f8-e80b-4614-9d6b-3fd80ab822bc}</Project>
       <Name>DataAccessObject</Name>
     </ProjectReference>
-    <ProjectReference Include="IronFramework.Utility\IronFramework.Utility.csproj">
+    <ProjectReference Include="..\IronFramework.Utility\IronFramework.Utility.csproj">
       <Project>{62cf1348-51e3-492d-90c6-50dc266d50fa}</Project>
       <Name>IronFramework.Utility</Name>
     </ProjectReference>

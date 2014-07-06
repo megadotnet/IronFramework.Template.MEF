@@ -1,4 +1,4 @@
-Iron Framework MEF Template
+Iron Framework MEF(Managed Extensibility Framework) Template
 =============
 
 Domain Driven Design(DDD),Layered architecture,Aspect-oriented programming(AOP) rapid development infrastructure
@@ -11,7 +11,13 @@ focus on enterprise solution based on Microsoft .Net Framework. Features:
 
  Repository and Unit of Work Pattern 
 
- Unit test with the Moq Framework 
+## Introduction
+--------------------------------------------------------
+Here is demo that show how to integrate the T4 template of IronFramework with MEF2.
+The purpose is not depends on Enterprise Library Unity container block any more. 
+Using MEF2 to solve interface object .
+
+Should balance MEF as IOC container with cutting-concern perspective feature.
 
 ## License
 (The MIT License)

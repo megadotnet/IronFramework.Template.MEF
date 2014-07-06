@@ -3,32 +3,18 @@
   <Metadata>
     <Identity Id="IronFramework.MEF.VSIX.V2013.MSIT.1fa6b1c3-6652-40ee-ac79-416954f22415" Version="1.0" Language="en-US" Publisher="MSIT" />
     <DisplayName>IronFramework.MEF.VSIX.V2013</DisplayName>
-    <Description xml:space="preserve">Iron framework
-Domain Driven Design(DDD),Layered architecture,Aspect-oriented programming(AOP) rapid development infrastructure
+    <Description xml:space="preserve">Introducation
+--------------------------------------------------------
+Here is demo that show how to integrate the T4 template of IronFramework with MEF2.
+The purpose is not depends on Enterprise Library Unity container block anymore. 
+Using MEF2 to solve interface object .
 
-focus on enterprise solution based on Microsoft .Net Framework. Features:
+Should blance MEF as IOC container with cutting-concern perspective feature.
 
- Asp.net MVC Razor engine
 
- Dependency injection, Common Service Locator 
-
- Asp.net Web Form strongly typed data binding model
-
- Custom paging data server control 
-
- Hierarchical data model work with JQuery Plug-in
-
- Entity Framework POCO and T4 template code generation 
-
- Cross cutting with Enterprise library application block 
-
- Repository and Unit of Work Pattern 
-
- Unit test with the Moq Framework 
-
- RESTful service 
-</Description>
-    <MoreInfo>https://github.com/megadotnet/ironframework</MoreInfo>
+----------------------------------------------------------
+Tips: UnitTest only support MSTest.</Description>
+    <MoreInfo>https://github.com/megadotnet/IronFramework.Template.MEF</MoreInfo>
   </Metadata>
   <Installation AllUsers="true">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
@@ -42,5 +28,6 @@ focus on enterprise solution based on Microsoft .Net Framework. Features:
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ConsoleTesting.zip" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\DataAccessObject.zip" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IronFramework.Utility.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IronFramework.MEF.zip" />
   </Assets>
 </PackageManifest>

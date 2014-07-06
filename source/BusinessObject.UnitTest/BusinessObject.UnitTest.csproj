@@ -63,13 +63,13 @@
       <Project>{1e636eb6-ce41-4023-9a17-e2642c216ae4}</Project>
       <Name>BusinessEntiies</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BusniessLogic\IronFramework.MEF.csproj">
+      <Project>{bd859733-e8b9-40da-8623-fc9670f282f4}</Project>
+      <Name>IronFramework.MEF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccessObject\DataAccessObject.csproj">
       <Project>{b2fd47f8-e80b-4614-9d6b-3fd80ab822bc}</Project>
       <Name>DataAccessObject</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IronFramework.MEF.csproj">
-      <Project>{bd859733-e8b9-40da-8623-fc9670f282f4}</Project>
-      <Name>IronFramework.MEF</Name>
     </ProjectReference>
     <ProjectReference Include="..\IronFramework.Utility\IronFramework.Utility.csproj">
       <Project>{62cf1348-51e3-492d-90c6-50dc266d50fa}</Project>

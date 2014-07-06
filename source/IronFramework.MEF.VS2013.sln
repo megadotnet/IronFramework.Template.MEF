@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.txt = Readme.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronFramework.MEF", "BusniessLogic\IronFramework.MEF.csproj", "{BD859733-E8B9-40DA-8623-FC9670F282F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{62CF1348-51E3-492D-90C6-50DC266D50FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62CF1348-51E3-492D-90C6-50DC266D50FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62CF1348-51E3-492D-90C6-50DC266D50FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD859733-E8B9-40DA-8623-FC9670F282F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD859733-E8B9-40DA-8623-FC9670F282F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD859733-E8B9-40DA-8623-FC9670F282F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD859733-E8B9-40DA-8623-FC9670F282F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +78,6 @@ Global
 		{46FDA4ED-7556-4B67-AF9A-F3A30E1A95A7} = {BC96E421-2DB7-4765-A733-B4B8797B0D66}
 		{B2FD47F8-E80B-4614-9D6B-3FD80AB822BC} = {A09A19D0-F38D-4AD2-9AC1-4D33A10FD5CC}
 		{62CF1348-51E3-492D-90C6-50DC266D50FA} = {BD666065-BBBD-40FD-9D61-2A82918BDBE0}
+		{BD859733-E8B9-40DA-8623-FC9670F282F4} = {4D217B98-7791-4014-B790-19CB15DBD19B}
 	EndGlobalSection
 EndGlobal
