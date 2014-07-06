@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="IronFramework.MEF.VSIX.V2013.MSIT.1fa6b1c3-6652-40ee-ac79-416954f22415" Version="1.0" Language="en-US" Publisher="MSIT" />
+    <DisplayName>IronFramework.MEF.VSIX.V2013</DisplayName>
+    <Description xml:space="preserve">Iron framework
+Domain Driven Design(DDD),Layered architecture,Aspect-oriented programming(AOP) rapid development infrastructure
+
+focus on enterprise solution based on Microsoft .Net Framework. Features:
+
+ Asp.net MVC Razor engine
+
+ Dependency injection, Common Service Locator 
+
+ Asp.net Web Form strongly typed data binding model
+
+ Custom paging data server control 
+
+ Hierarchical data model work with JQuery Plug-in
+
+ Entity Framework POCO and T4 template code generation 
+
+ Cross cutting with Enterprise library application block 
+
+ Repository and Unit of Work Pattern 
+
+ Unit test with the Moq Framework 
+
+ RESTful service 
+</Description>
+    <MoreInfo>https://github.com/megadotnet/ironframework</MoreInfo>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\BusinessEntiies.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\BusinessObject.UnitTest.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ConsoleTesting.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\DataAccessObject.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IronFramework.Utility.zip" />
+  </Assets>
+</PackageManifest>
