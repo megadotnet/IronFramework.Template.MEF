@@ -46,7 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategroyBO.cs">
+      <DependentUpon>IBussinessBase.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IBussinessBase.cs">
+      <DependentUpon>IBussinessBase.tt</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="ICategroyBO.Generated.cs">
+      <DependentUpon>IBussinessBase.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IProductBO.Generated.cs">
+      <DependentUpon>IBussinessBase.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="IProductBusniessLogicObject.cs" />
+    <Compile Include="ProductBO.cs">
+      <DependentUpon>IBussinessBase.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProductBusniessLogicObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +88,12 @@
       <Project>{62cf1348-51e3-492d-90c6-50dc266d50fa}</Project>
       <Name>IronFramework.Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IBussinessBase.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>IBussinessBase.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

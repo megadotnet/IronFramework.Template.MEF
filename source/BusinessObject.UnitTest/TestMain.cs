@@ -28,7 +28,7 @@ using System.Text;
 namespace BusinessObject.UnitTest
 {
     /// <summary>
-    /// Class TestMain
+    /// Class TestMain, Current is only work well with MSTest
     /// </summary>
     /// <remarks>http://wintersun.cnblogs.com/</remarks>
    [TestClass]

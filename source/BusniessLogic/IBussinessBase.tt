@@ -1,0 +1,273 @@
+﻿<#@ template language="C#" debug="true" hostspecific="true"#>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ output extension=".cs"#>
+<#// This needs to be set to the .edmx file that you want to process.
+string edmxFile = FindEDMXFileName(); 
+CodeGenerationTools code = new CodeGenerationTools(this);
+MetadataLoader loader = new MetadataLoader(this);
+MetadataTools ef = new MetadataTools(this);
+CodeRegion region = new CodeRegion(this);
+#>// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="IRepository.cs" company="Megadonet">
+//   Copyright (c) 2010-2014 Peter Liu.  All rights reserved. 
+// </copyright>
+// <summary>
+//   a interface of data acccess repository.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace <#= code.VsNamespaceSuggestion() #>
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq.Expressions;
+
+    using IronFramework.Utility.UI;
+
+    /// <summary>
+    /// a interface of data acccess repository.
+    /// </summary>
+    /// <typeparam name="T">entity</typeparam>
+    public interface IBusniessLogicObject<T>
+    {
+        #region Public Methods
+
+        /// <summary>
+        /// The find enties.
+        /// </summary>
+        /// <param name="pageIndex">
+        /// The page index.
+        /// </param>
+        /// <param name="pageSize">
+        /// The page size.
+        /// </param>
+        /// <returns>
+        /// The <see cref="PagedList"/>.
+        /// </returns>
+        PagedList<T> FindEnties(int? pageIndex, int pageSize);
+
+        /// <summary>
+        /// The create entiy.
+        /// </summary>
+        /// <param name="t">
+        /// The t.
+        /// </param>
+        /// <returns>
+        /// The <see cref="bool"/>.
+        /// </returns>
+        bool CreateEntiy(T t);
+
+        /// <summary>
+        /// The get entiy.
+        /// </summary>
+        /// <param name="_id">
+        /// The _id.
+        /// </param>
+        /// <returns>
+        /// The <see cref="T"/>.
+        /// </returns>
+        T GetEntiy(int _id);
+
+        /// <summary>
+        /// The del entiy.
+        /// </summary>
+        /// <param name="t">
+        /// The t.
+        /// </param>
+        /// <returns>
+        /// The <see cref="bool"/>.
+        /// </returns>
+        bool DelEntiy(T t);
+
+        /// <summary>
+        /// The update entiy.
+        /// </summary>
+        /// <param name="t">
+        /// The t.
+        /// </param>
+        /// <returns>
+        /// The <see cref="bool"/>.
+        /// </returns>
+        bool UpdateEntiy(T t);
+        #endregion
+    }
+}<#
+EdmItemCollection ItemCollection = loader.CreateEdmItemCollection(edmxFile);
+EntityContainer container = ItemCollection.GetItems<EntityContainer>().FirstOrDefault();
+EntityFrameworkTemplateFileManager fileManager = EntityFrameworkTemplateFileManager.Create(this);
+
+foreach (EntityType entity in ItemCollection.GetItems<EntityType>().OrderBy(e => e.Name))
+{;
+    fileManager.StartNewFile("I"+entity.Name + "BO.Generated.cs"); #>
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="<#=code.Escape(entity)#>Repository.cs" company="Megadotnet">
+// Copyright (c) 2010-2014 Peter Liu.  All rights reserved. 
+// </copyright>
+// <summary>
+//   The <#=code.Escape(entity)#> repository.
+//   This file is auto generated and will be overwritten as soon as the template is executed
+//   Do not modify this file...
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------	
+namespace <#= code.VsNamespaceSuggestion() #>
+{  
+    using System;
+    using System.ComponentModel.Composition;
+    using System.Linq;
+    using System.Linq.Expressions;
+    using System.Collections.Generic;
+    using BusinessEntiies;
+
+	<#=Accessibility.ForType(entity)#> <#=code.SpaceAfter(code.AbstractOption(entity))#>interface I<#=code.Escape(entity)#>BO : IBusniessLogicObject<<#=code.Escape(entity)#>>
+	{
+
+	}
+}<#	
+	if(!DoesFileExist(entity.Name + "BO.cs"))
+	{
+		fileManager.StartNewFile(entity.Name + "BO.cs");
+		#>using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.ComponentModel.Composition;
+using BusinessEntiies;
+using DataAccessObject;
+	
+namespace <#= code.VsNamespaceSuggestion() #>
+{   
+   [Export]
+	<#=Accessibility.ForType(entity)#> <#=code.SpaceAfter(code.AbstractOption(entity))#>class <#=code.Escape(entity)#>BO : I<#=code.Escape(entity)#>BO
+	{
+
+        /// <summary>
+        /// The <#=code.Escape(entity)#> repository
+        /// </summary>
+        private readonly <#=code.Escape(entity)#>Repository entiesrepository;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="<#=code.Escape(entity)#>BusniessLogicObject"/> class.
+        /// </summary>
+        public <#=code.Escape(entity)#>BO()
+        {
+            this.entiesrepository = RepositoryHelper.Get<#=code.Escape(entity)#>Repository();
+        }
+
+
+        /// <summary>
+        /// FindEnties
+        /// </summary>
+        /// <param name="pageIndex">pageIndex</param>
+        /// <param name="pageSize">pageSize</param>
+        /// <returns>Enties</returns>
+        public Utility.UI.PagedList<<#=code.Escape(entity)#>> FindEnties(int? pageIndex, int pageSize)
+        {
+             return entiesrepository.Repository.Find(p => p.Id>0, p => p.Id, pageIndex, pageSize);
+        }
+
+        /// <summary>
+        /// CreateEntiy
+        /// </summary>
+        /// <param name="product">The entity.</param>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
+        public bool CreateEntiy(<#=code.Escape(entity)#> t)
+        {
+            entiesrepository.Repository.Add(t);
+            entiesrepository.Save();
+            return true;
+        }
+
+        /// <summary>
+        /// Gets the Entiy
+        /// </summary>
+        /// <param name="pid">The pid.</param>
+        /// <returns>Entiy</returns>
+        public <#=code.Escape(entity)#> GetEntiy(int _id)
+        {
+             return entiesrepository.Repository.Single(e => e.Id == _id);
+        }
+
+        /// <summary>
+        /// Dels the Entiy.
+        /// </summary>
+        /// <param name="Entiy">The Entiy.</param>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
+        public bool DelEntiy(<#=code.Escape(entity)#> t)
+        {
+            entiesrepository.Repository.Delete(t);
+            entiesrepository.Save();
+            return true;
+        }
+
+         /// <summary>
+        /// Updates the Entiy.
+        /// </summary>
+        /// <param name="Entiy">The Entiy.</param>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</return
+        public bool UpdateEntiy(<#=code.Escape(entity)#> t)
+        {
+            entiesrepository.Repository.Save();
+            return true;
+        }
+	}
+}<#
+	}
+	else
+	{
+		fileManager.StartNewFile(entity.Name + "BO.cs");
+		this.Write(OutputFile(entity.Name + "BO.cs"));
+	}
+}
+
+#>
+<#fileManager.Process();#>
+
+
+<#+
+
+bool DoesFileExist(string filename)
+{			
+	return File.Exists(Path.Combine(GetCurrentDirectory(),filename));	
+}
+
+string OutputFile(string filename)
+{
+	using(StreamReader sr = new StreamReader(Path.Combine(GetCurrentDirectory(),filename)))
+	{
+		string contents = sr.ReadToEnd();
+		return contents;
+	}
+}
+
+string GetCurrentDirectory()
+{
+	string executingDirectoryName = "";
+	string stackTraceFileName = new StackTrace(true).GetFrame(0).GetFileName();
+	if (String.IsNullOrEmpty(stackTraceFileName))
+	{
+		throw new ArgumentException("No value was specified for the 'directoryName' configuration parameter" +
+			", and we could not figure out the file name from the stack trace (most likely because of running " +
+			"the template with debug='False' specified in the <\u0023@ template \u0023> directive.");
+	}
+	else
+	{		
+		executingDirectoryName = Path.GetDirectoryName(stackTraceFileName);
+        int lot= executingDirectoryName.LastIndexOf("\\");
+        //Need pay attention to  executingDirectoryName
+        executingDirectoryName=Path.Combine(executingDirectoryName.Substring(0,lot),"BusinessEntiies");
+	}	
+	return executingDirectoryName;
+}
+
+string FindEDMXFileName()
+{
+	string edmxFile = "";
+				
+	string[] entityFrameworkFiles = Directory.GetFiles(GetCurrentDirectory(), "*.edmx");
+	if(entityFrameworkFiles.Length > 0)
+		edmxFile = entityFrameworkFiles[0];
+	
+	return edmxFile;
+}
+#>
