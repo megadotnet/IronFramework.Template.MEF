@@ -22,8 +22,10 @@ using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition.Registration;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
+using IronFramework.Utility.EntityFramewrok;
 
 namespace BusinessObject.UnitTest
 {
@@ -42,6 +44,24 @@ namespace BusinessObject.UnitTest
         [TestMethod]
         public void ShouldGetExportOneCatelog()
         {
+            IRepository<Product> dd;
+            IRepository<Categroy> cc;
+            ProductRepository pr;
+
+            CreateMEFContainer(out dd, out cc, out pr);
+
+            Assert.IsNotNull(dd);
+            Assert.IsNotNull(cc);
+            Assert.IsNotNull(pr);
+
+            var product = pr.Repository.Find(p => p.Id == 1);
+            Assert.IsNotNull(product);
+            Assert.IsNotNull(product.FirstOrDefault().ProductName);
+
+        }
+
+        private static void CreateMEFContainer(out IRepository<Product> dd, out IRepository<Categroy> cc, out ProductRepository pr)
+        {
             var picker = new RegistrationBuilder();
             picker.ForType<DbContext>().Export<OkUStockingEntities>();
             picker.ForType<EFUnitOfWork>().Export<IUnitOfWork>();
@@ -54,22 +74,13 @@ namespace BusinessObject.UnitTest
             picker.ForType<CategroyRepository>().Export<IRepository<CategroyRepository>>();
 
 
-           var catalog = new DirectoryCatalog(AppDomain.CurrentDomain.BaseDirectory,"*.dll",picker); 
-           var container = new CompositionContainer(catalog);
+            var catalog = new DirectoryCatalog(AppDomain.CurrentDomain.BaseDirectory, "*.dll", picker);
+            var container = new CompositionContainer(catalog);
 
-            var dd = container.GetExportedValue<IRepository<Product>>();
-            var cc = container.GetExportedValue<IRepository<Categroy>>();
-            var pr = container.GetExportedValue<ProductRepository>();
+            dd = container.GetExportedValue<IRepository<Product>>();
+            cc = container.GetExportedValue<IRepository<Categroy>>();
+            pr = container.GetExportedValue<ProductRepository>();
             var pc = container.GetExportedValue<CategroyRepository>();
-
-            Assert.IsNotNull(dd);
-            Assert.IsNotNull(cc);
-            Assert.IsNotNull(pr);
-
-            var product = pr.Repository.Find(p => p.Id == 1);
-            Assert.IsNotNull(product);
-            Assert.IsNotNull(product.FirstOrDefault().ProductName);
-
         }
 
         /// <summary>
@@ -126,5 +137,58 @@ namespace BusinessObject.UnitTest
             Assert.AreEqual(1, p.Id);
         }
 
+
+       /// <summary>
+        /// Query database with multi-where clause on EF6
+       /// </summary>
+         [TestMethod]
+       public void TestQueryWithMutiCondition()
+        {
+            IRepository<Product> dd;
+            IRepository<Categroy> cc;
+            ProductRepository pr;
+
+            CreateMEFContainer(out dd, out cc, out pr);
+
+            string productName = "SoundCard";
+            DateTime? beignUpdateDate = new DateTime(2013, 1, 1);
+            DateTime? endUpdateDate = new DateTime(2019, 10, 1);
+            int pageIndex = 1;
+            int pageSize=10;
+
+            var myProduct=pr.Repository.Find(
+                  BuildFindByAllQuery(productName, beignUpdateDate, endUpdateDate) ,
+                e => e.UpdatedTime,
+                pageIndex,
+                pageSize);
+
+            Assert.IsTrue(myProduct.Count>0);
+
+        }
+
+
+         /// <summary>
+         /// Builds the find by all query.
+         /// </summary>
+         private static Expression<Func<Product, bool>> BuildFindByAllQuery(string productName,DateTime? beignUpdateDate, DateTime? endUpdateDate)
+         {
+
+             var list = new List<Expression<Func<Product, bool>>>();
+
+             if (!string.IsNullOrEmpty(productName)) list.Add(c => c.ProductName == productName);
+
+             if (beignUpdateDate != null) list.Add(c => c.UpdatedTime >= beignUpdateDate);
+
+             if (endUpdateDate != null) list.Add(c => c.UpdatedTime <= endUpdateDate);
+
+             //Add more condition
+             Expression<Func<Product, bool>> productQueryTotal = null;
+
+             foreach (var expression in list)
+             {
+                 productQueryTotal = expression.And(expression);
+             }
+             return productQueryTotal;
+         }
     }
 }
