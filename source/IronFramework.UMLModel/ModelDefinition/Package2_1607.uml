@@ -1,0 +1,1243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="282bd345-b867-46e0-8174-f2c31323e105"
+  name="EntityFramewrok"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="64b03f8d-6af6-4c85-9ce3-c3020e13f6e1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DIronFramework.Utility.EntityFramewrok"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="67cc660c-2d87-4852-99ca-bdfa931147e4"
+        name="PredicateBuilder"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c16f7048-c08a-4965-824a-184739179e09"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4455695e-72b7-40c1-bf84-8d8976be815a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e73df17-5cca-4460-a1a1-5d08ceb38635">
+                <propertyInstance
+                  Id="9bf9f771-de4f-4831-bf07-cadcb657956f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1833a4fb-31a6-4b10-99e8-08c25fe15204">
+                <propertyInstance
+                  Id="f9d3a0d2-ea05-4986-8071-da18f2f09e0a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45540d20-344d-442e-94a3-88a2c03c6039">
+                <propertyInstance
+                  Id="6fec441f-248c-466e-a193-8a1b6da00328"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fc1146d-e7a3-41bf-8376-7bb0fd07016f">
+                <propertyInstance
+                  Id="7543903b-8453-4994-8299-e90588f3cb08"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c570ba84-988d-42b3-9a46-24b2977d6e64">
+                <propertyInstance
+                  Id="fb9637c7-af71-49f7-ac12-435eed8c6801"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3c5d0a10-ec86-4325-be48-f13a0e7bc384"
+            name="True‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0f375675-ee2f-4e56-850b-de0b153e2a7f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DTrue GenericParameterCount%3D1)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="af710c9c-a00e-429e-9299-850c4f870cb1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="646b8535-190f-4716-ad4d-d3ceb72a52b3">
+                    <propertyInstance
+                      Id="018b4cf8-c4de-4b61-aea1-2328b88bf66d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e87f23e3-27af-4ee2-abf3-bdbe45701c99">
+                    <propertyInstance
+                      Id="a2cb6f9c-a24c-4611-a7b7-9b6853a76c62"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8fece2b-6139-4012-98d4-18a1d375f27a">
+                    <propertyInstance
+                      Id="00769914-f9eb-4dcf-a9bf-a404b94994a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c550230-0b8b-4bf5-ad27-aa7a28a18be5">
+                    <propertyInstance
+                      Id="348b0a84-aeff-4de1-82a9-47fc9668ecd2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2731a9e3-ff7b-4366-900e-3878d6f545c3">
+                    <propertyInstance
+                      Id="20d1247e-cc39-4ceb-ac02-1607ea3a091f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e11f6ac-b9e9-4403-8880-0f164805d719">
+                    <propertyInstance
+                      Id="2940e75e-a913-42b8-8ace-fafa9e438979"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1187d755-c9c8-4326-92b5-efda72049287"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1ed61421-5d57-4e57-875d-6156425514df"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6ca31a6e-cc75-4841-a922-126a5747fbaa"
+            name="False‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="85273dc0-53ee-4be0-8f63-0e7df1746750"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DFalse GenericParameterCount%3D1)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6daf0d1e-1eb4-4f8c-a172-fcfaaedbf7f3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b2cdbe8-6a63-43c5-bf6a-c0ea3ec533cf">
+                    <propertyInstance
+                      Id="25f2b7c3-0914-4797-af36-e035a9cb6880"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14713a5b-d3b3-4970-ad0e-8fb6dbb8360c">
+                    <propertyInstance
+                      Id="5f320855-ae7d-4d80-9536-82eea8ba525d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18def27b-63bd-41f1-a3f4-2d6ef143ea88">
+                    <propertyInstance
+                      Id="74d452cc-d0ef-4c09-a032-973b6776ea73"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9392525a-9e1b-48be-b2f5-088dd92aae16">
+                    <propertyInstance
+                      Id="b6241936-d606-4b63-84ea-edfca1c0ec38"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="799e0d00-330a-4f44-b740-1995ef683763">
+                    <propertyInstance
+                      Id="e1e5c6a3-0177-4cb6-b6d3-e9ea27853d23"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47105990-a995-48ac-b13b-4b1507c604fc">
+                    <propertyInstance
+                      Id="0ea5add1-9a83-440b-8ea6-6f51984ef825"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="011f1854-562d-4951-8273-98172cca833c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0d836701-b331-4347-819a-f7b7aab27ffc"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="74224a3d-3487-4650-af4d-0faa5edfc4df"
+            name="Create‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43f7b6b8-9210-4bb5-ab17-1e1e45352210"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCreate GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8250027-684e-43e7-854e-9569b0c472ee"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e9b7a18-088a-4f9d-818d-601fc328966a">
+                    <propertyInstance
+                      Id="7711468f-bb90-4696-b79a-6bd06472e34f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65080f0c-d817-47e1-9ca0-a45133ae1210">
+                    <propertyInstance
+                      Id="06d93f4b-40bc-4a77-8089-5808cdb73541"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8a14f7a-035d-4249-9c3b-0352f5af57d4">
+                    <propertyInstance
+                      Id="d30a9631-7e87-4c7f-bfe0-d27ab75369d7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4ff9d2b-55b9-43c2-bda5-d097e1272fa3">
+                    <propertyInstance
+                      Id="117a8633-38b2-439a-859b-9c12ef042d89"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="840faebc-1771-4ea1-9d02-98e9d0537725">
+                    <propertyInstance
+                      Id="ee43fc1e-8e9b-4bf7-83b4-7c4200e16f8b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74a71255-0f4d-45a5-ae5b-44f091f6bea6">
+                    <propertyInstance
+                      Id="8675b860-76c4-40f7-b346-02b4bdf411b3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a4408001-8254-43da-a8a4-8fd2262febc7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7168ce45-3e49-4b0a-875b-90668d9a07df"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a98e06e1-fc64-4471-a609-c0ee92d808c6"
+                  name="predicate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bfd1420e-c84e-4303-8c92-34a67dc8c3e5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCreate GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dpredicate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7168ce45-3e49-4b0a-875b-90668d9a07df"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8c2a6934-b620-4c3f-bd8c-4d981e58aa4a"
+            name="And‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ea420b4d-64f4-409d-b25c-a4204dac8491"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DAnd GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="98a6e440-3cc2-4f48-bcc9-bcac5c763830"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74f13c93-c5e3-4bbc-b1a8-8d90639c5a4b">
+                    <propertyInstance
+                      Id="18dcc504-9f64-4a5b-9f89-c7aa7adad2e3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="887e18aa-ac39-403c-be9a-558b11a2e8ea">
+                    <propertyInstance
+                      Id="5d806a38-0866-45d6-9886-51c63749ce6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d826af7-f6c1-4ec6-8c75-c2aae6c5839a">
+                    <propertyInstance
+                      Id="4f4b40ef-0227-4e1d-815d-433fd61e2138"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="489eb97d-55b4-4034-9fd5-7fc865ae54c0">
+                    <propertyInstance
+                      Id="5b5b5232-3c4d-4662-80b1-4653a1667dbb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f006474-9502-4638-8593-887479b9b0b5">
+                    <propertyInstance
+                      Id="c9df370c-9d64-4b2a-a930-a00e4ede97c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f902f6f-b045-4adf-85c1-5f2596d16181">
+                    <propertyInstance
+                      Id="84f7a5e4-63d7-4db6-ac55-cc1af320ab7a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="63e13c21-dc30-4d3c-9fce-1def30d47e26"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="24860552-bfd6-4a6c-a498-3f8274ffebab"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1f141960-0b29-431a-b66f-ea6c3a5b21cf"
+                  name="first"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cf33f8a7-9cab-4ecd-8b7a-b1cdfa02724e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DAnd GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dfirst"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="24860552-bfd6-4a6c-a498-3f8274ffebab"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58b5b284-216d-4f7f-8479-d360da94d0e1"
+                  name="second"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d29c6625-8eed-4d97-88fd-94abbd8b6a50"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DAnd GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dsecond"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="24860552-bfd6-4a6c-a498-3f8274ffebab"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="38049950-bbca-46e9-ae0b-8df370409280"
+            name="Or‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5aa3a298-bbf7-437d-9045-64e0be3cbdec"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DOr GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f02cdf3a-1749-4947-ab1a-111ab449015c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20d47438-aa4c-4934-9b80-b7885af6c1c9">
+                    <propertyInstance
+                      Id="eb01638f-9ce6-4a75-9eb1-a8438593b1ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e07ca67-8837-41c0-8ab1-c81b80f51225">
+                    <propertyInstance
+                      Id="05f82ba4-71a6-4323-8201-73da0dd162c9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="890ec6b9-6d40-4f4a-8d87-049d0b542a78">
+                    <propertyInstance
+                      Id="ec18d056-680f-45a7-8f01-91cbca444349"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd22de7a-e79e-4407-9c55-ee6460af4498">
+                    <propertyInstance
+                      Id="3ab3847a-5033-42fa-8fdd-fb655aade3e9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00d83b71-202a-430e-a967-a133e6535704">
+                    <propertyInstance
+                      Id="f230cbc5-7e71-411a-b559-489a98a1e26e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b421118-7aa0-4cea-ba01-6629eb69c460">
+                    <propertyInstance
+                      Id="df06024f-9424-4e88-9de9-d1f6119d189f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6e5b63e8-a5ad-4944-977d-fc4b6c633b26"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b6822fdb-895d-4cf4-a321-6a3dd0e47fc7"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59a0b8c6-bd4c-42cd-8b5f-b2f803b39b0f"
+                  name="first"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fcc3b0e0-c2f2-43d1-8247-e02801114fc4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DOr GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dfirst"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b6822fdb-895d-4cf4-a321-6a3dd0e47fc7"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58a100f8-3b83-403c-a4da-2ddf3e00e2c9"
+                  name="second"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="641e257b-148e-4369-9e05-82293ccb1d7c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DOr GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dsecond"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b6822fdb-895d-4cf4-a321-6a3dd0e47fc7"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0a059966-c9e4-4b6d-a8b1-78a01aa5d0b6"
+            name="Not‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ccad0d35-d35f-4276-82c9-eb7786eacd43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DNot GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b2a88957-cb69-4893-a012-20638ec96fba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8ee1e42-e1d4-483a-9c4b-d8a2041cc0d1">
+                    <propertyInstance
+                      Id="6a5d068d-5d13-4a96-9b75-7d359e448ae3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="479d40e6-0932-4287-b75c-218bc1aac777">
+                    <propertyInstance
+                      Id="5a8501b4-a89d-4f69-8f31-c839740463d5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7990ed77-570a-4591-8304-917b6ebce112">
+                    <propertyInstance
+                      Id="9869f9c1-962e-40e9-86a6-c0c6fd3fabef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f858c7d-4ef9-4a34-bcfd-af538ce37819">
+                    <propertyInstance
+                      Id="21514be3-3452-4a27-9366-e22635b74cce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1145519f-4dfb-46c5-8bd8-05df54eee279">
+                    <propertyInstance
+                      Id="833ea021-2eb6-484f-abca-847bd94dd4f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d32040ec-5a7f-4f0c-859a-a6d3c2d85804">
+                    <propertyInstance
+                      Id="6859b381-70dd-4f8b-8883-4d0c8caf3817"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f103b9fc-5fea-4b6c-b80d-f04c70a8f717"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="74d508a7-b0eb-410f-9663-463b6d2af1f0"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f54d238-b725-4ad7-bcb4-635713fd6cb2"
+                  name="expression"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f33b2210-02b1-4c01-85b0-caeaafb28188"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DNot GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D2 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]))]) ParameterIdentifier%3Dexpression"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="74d508a7-b0eb-410f-9663-463b6d2af1f0"
+                      LastKnownName="Expression&lt;Func‎&lt;T‎, Boolean‎&gt;‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="75ed49a3-b30e-4458-a663-0b4c044a1f7f"
+            name="Compose‎&lt;T‎&gt;"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e1024e17-ef0c-499d-934e-e9503cbecfb5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCompose GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95caee83-ec54-4ff4-8121-aada4c37504e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d31bc71a-1362-473f-b62a-03aa6d0a1cb7">
+                    <propertyInstance
+                      Id="f8288707-b10c-4c57-97d7-aeff2d25a288"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66a7432d-d0c9-4eec-a6cd-2aaee3e867bb">
+                    <propertyInstance
+                      Id="7b29fb53-4cb6-4af5-aa21-8e57994b67c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3564fe0-d298-4a59-8a7d-4aeaf523afa2">
+                    <propertyInstance
+                      Id="5bd712cc-775d-4b97-8c52-6ed5d8bed7fb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5182a4de-92a2-4de5-9537-11f8745f70c7">
+                    <propertyInstance
+                      Id="d7650c8f-8fba-4d04-8961-e76c5502f22c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a477146-7069-4bd7-afee-dd1f47ea9444">
+                    <propertyInstance
+                      Id="c5716acd-d425-418f-8da9-3d767c5241fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59ca5dde-d80c-42dc-8525-a961b0ac6745">
+                    <propertyInstance
+                      Id="8ec70db4-57db-4acd-8e0d-546da5db565d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8bd28ea8-ff08-477c-8bc5-c38ce2e3618e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7f8474b-c699-45f7-b5e1-80e94c426a2a"
+                      LastKnownName="Expression&lt;T‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33f65b28-3978-4b0f-8bb2-9f85e5c675d7"
+                  name="first"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6d940423-6b12-4635-9e0f-53ebb767285e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCompose GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]))]) ParameterIdentifier%3Dfirst"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7f8474b-c699-45f7-b5e1-80e94c426a2a"
+                      LastKnownName="Expression&lt;T‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="658a9856-47ff-432e-916a-cd5c4efe8ab4"
+                  name="second"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="13f01375-eed4-44f1-85c7-25d7e692e1ac"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCompose GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]))]) ParameterIdentifier%3Dsecond"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7f8474b-c699-45f7-b5e1-80e94c426a2a"
+                      LastKnownName="Expression&lt;T‎&gt;"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cd6f9c35-b6d4-4b4d-9bbf-067f66bf97ec"
+                  name="merge"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4efa7d0e-d109-4c44-b1b9-5d823e5d6648"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3DPredicateBuilder Member%3D(Name%3DCompose GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]))]) ParameterIdentifier%3Dmerge"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f76944eb-88b9-4488-a2e0-f12fee3304c4"
+                      LastKnownName="Func&lt;Expression‎, Expression‎, Expression‎&gt;"
+                      LastKnownLocation="Package3_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cd8cdbd6-caa0-48cc-8696-429cbdd76aae"
+        name="ParameterRebinder"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8ac45bf9-c1e4-4209-8436-136508b7457e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0957a96c-eebb-4463-bedb-bfd5ffb916ea"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="abfc7a25-1150-432f-b136-f6186b7ccc8b">
+                <propertyInstance
+                  Id="294020a4-580b-4ca3-8423-91c1a0af53b3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45325194-ecd0-41ca-95ef-7cc40f9ab347">
+                <propertyInstance
+                  Id="d1b5651e-cf02-4a29-8c41-7f180c2ad199"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8bbab78-af1e-4486-9393-2a677e59d289">
+                <propertyInstance
+                  Id="495135c4-7cb0-48fe-a501-03734764d711"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d92bd5f-3cae-46fd-a9c3-6dc008591a8f">
+                <propertyInstance
+                  Id="f4e79df2-b978-4c3c-b248-4acbc19de605"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9978813c-2228-4f94-934f-1f3ea32b182a">
+                <propertyInstance
+                  Id="8f09fde7-d4c8-4d93-8bfb-5b451929f51e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="18eace0b-103c-4246-a06a-a16e1b076f56"
+            isSubstitutable="false">
+            <classMoniker
+              Id="13faaaa3-9c45-4eed-8eeb-b9cc052d1907"
+              LastKnownName="ExpressionVisitor"
+              LastKnownLocation="Package5_1607.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cdeb0586-ade2-4818-b243-95ab6a066291"
+            name="map"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1c562d6a-d1e9-4d6f-8a77-4a419ffc8783"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3Dmap"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b0382cf2-dae9-4bd1-8e4c-073483fdf3eb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b40441a1-253f-4068-84c0-24df7781018b">
+                    <propertyInstance
+                      Id="9bd4f633-ea8e-4e4a-b861-76e96903ccae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="839dd73b-afd4-4bf7-8792-f54f1fc22e86">
+                    <propertyInstance
+                      Id="d0dba360-f14c-44a6-b9a6-1c51aa19e3f3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46cc9f45-d546-48a8-a85b-466e8e80b1d5">
+                    <propertyInstance
+                      Id="4b9850b1-69ed-4c9d-a247-84e0336801ab"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31e47fb7-41ef-432f-8bc0-5da2d8a6ee6d">
+                    <propertyInstance
+                      Id="cc3f13ed-1251-4c99-8865-869fa4a989ca"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b64b5c5-c42b-4706-ad3e-d19927cea65d">
+                    <propertyInstance
+                      Id="9077ffb3-941e-4bb9-837d-09b0280b58bd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="87d4fb14-739a-45cc-83a5-e3a3cb17751a"
+                LastKnownName="Dictionary&lt;ParameterExpression‎, ParameterExpression‎&gt;"
+                LastKnownLocation="Package1_1608.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="faac75a6-e3fe-4435-8fa6-93b1a7a58f35"
+            name="ParameterRebinder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5fd9458e-94ef-4581-988b-a01000fd0cfc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2516d78e-07fe-42ed-9834-847e2b405257"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c51013b-0c58-46ac-820b-99fc2fbac66f">
+                    <propertyInstance
+                      Id="2cc1b7ee-4b1e-4ec9-aa75-7b2fafdba193"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b94448c-ab97-4460-8cc5-6476901e612c">
+                    <propertyInstance
+                      Id="cde27ba2-f3c8-4b86-854a-41a0b3c871bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cc84cc4-d91c-402a-925b-836e814cb4dc">
+                    <propertyInstance
+                      Id="a7f49e7e-1981-4963-8a0f-e9a4c356a4b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6876740a-3e09-4f73-9099-11f34897ff44">
+                    <propertyInstance
+                      Id="f91519fa-ac10-473e-9bcd-9891d795beaf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20cdb50f-fbaf-47fe-aaf4-73e11913008a">
+                    <propertyInstance
+                      Id="3ec9083f-d144-474e-873a-8773851267ee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="943a3dc6-6589-4be1-bd98-ed828d123999">
+                    <propertyInstance
+                      Id="3e0a4544-2f0a-43ae-998c-c4f47df1d66a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7b5a54a6-fa47-4661-bf1c-0300ea6f3b09"
+                  name="map"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8b725591-0e1b-4162-b8ae-29502b1ddf13"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]))]) ParameterIdentifier%3Dmap"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="87d4fb14-739a-45cc-83a5-e3a3cb17751a"
+                      LastKnownName="Dictionary&lt;ParameterExpression‎, ParameterExpression‎&gt;"
+                      LastKnownLocation="Package1_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="820de33b-d189-466c-9dfc-4265b9b53321"
+            name="ReplaceParameters"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22e04a24-5c89-4f56-8733-cfa080d685a0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3DReplaceParameters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f4637bd4-f4f3-4b95-afa3-0669d9678ce4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="058cf2f9-36a7-429d-9a79-48a46d276587">
+                    <propertyInstance
+                      Id="06db95ae-2fb8-413f-8daa-efa84a03bb69"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6760638-f957-42a1-9dfe-224de965379b">
+                    <propertyInstance
+                      Id="33858a53-3872-4963-87b5-dc96a0c5bb5a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="014039c6-58c0-4e2b-b3f0-4a5fc81115a4">
+                    <propertyInstance
+                      Id="973cfcd5-36df-46a4-9be5-e1f72c9cb037"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01d57acb-f430-4c50-b421-57317f618ec1">
+                    <propertyInstance
+                      Id="26c3859b-243e-4828-b502-afb73a039b55"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3da981af-79af-4a96-a9d2-4400449765a2">
+                    <propertyInstance
+                      Id="71c0ca90-352c-4aa7-bd59-e37eac76eb4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b66a18d-f9cd-419b-96ad-b14aa02fc5ed">
+                    <propertyInstance
+                      Id="9b1e12d0-7809-4bfd-bca2-5fdee2859303"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e07171f4-4cab-42a5-bdd7-6aead3e0a9a7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ffb6dcba-5076-4724-96c5-a9eb59e67eff"
+                      LastKnownName="Expression"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78759e9a-50c7-4051-a4ab-6c79b5ed5d3e"
+                  name="map"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7c57aa9d-05fb-4f47-83dc-c7d4d9a98c26"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3DReplaceParameters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]) ParameterIdentifier%3Dmap"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="87d4fb14-739a-45cc-83a5-e3a3cb17751a"
+                      LastKnownName="Dictionary&lt;ParameterExpression‎, ParameterExpression‎&gt;"
+                      LastKnownLocation="Package1_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="950ce17b-3673-4125-ab4f-1719064603dc"
+                  name="exp"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="df5918a4-f00f-4fa8-97d1-ac222366f0d3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3DReplaceParameters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DExpression)]) ParameterIdentifier%3Dexp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ffb6dcba-5076-4724-96c5-a9eb59e67eff"
+                      LastKnownName="Expression"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9e13d36c-d634-4db9-8387-20082757bc63"
+            name="VisitParameter"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1a5b4df8-4d85-4593-babb-c84278371066"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3DVisitParameter OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb6b8f0d-9899-4fdb-8050-a2dd4c8af176"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0694abb3-a04c-40cf-a7a2-c626cdc2abbe">
+                    <propertyInstance
+                      Id="e1f344d6-d8fd-4835-a7f5-6625f5916d4b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96e60690-d8c1-4ef7-ba4a-29124a95b4eb">
+                    <propertyInstance
+                      Id="390782b3-723b-440e-a7a9-a449c210a9be"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21b2e70a-6ce0-4105-b2a4-9cd55e8d7077">
+                    <propertyInstance
+                      Id="2850b659-195f-4cdc-95aa-71df687f5218"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45891791-b761-4b5b-8a43-54fa6de4d854">
+                    <propertyInstance
+                      Id="b6c93e46-e9c0-41da-9654-7eccc533c5bd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84e55dd5-deed-408e-b7ce-8daa532bcdcb">
+                    <propertyInstance
+                      Id="0ce3c2f8-2381-4575-8e2c-19c86fbe2094"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b569a0ac-8c82-40a6-8be9-86592d2ca8f2">
+                    <propertyInstance
+                      Id="5fe505b3-1b2a-43e8-975b-7f8652da4094"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06765b13-99fa-4ec1-9c91-f12b72531bdd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ffb6dcba-5076-4724-96c5-a9eb59e67eff"
+                      LastKnownName="Expression"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8dbef05f-0862-4532-8515-f84976c69953"
+                  name="p"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5421cce3-3f44-4f57-b1fa-a44e52ab23ec"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FJ:%2FMyProject%2FGitHub%2FIronFramework.Template.MEF%2Fsource%2FIronFramework.Utility%2Fbin%2FDebug%2FIronFramework.Utility.dll Namespace%3DIronFramework.Utility.EntityFramewrok Type%3D(Name%3DParameterRebinder ParentType%3DPredicateBuilder) Member%3D(Name%3DVisitParameter OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3DParameterExpression)]) ParameterIdentifier%3Dp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="498653fe-6afc-49ae-a72f-5ae8a1554db7"
+                      LastKnownName="ParameterExpression"
+                      LastKnownLocation="Package5_1607.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

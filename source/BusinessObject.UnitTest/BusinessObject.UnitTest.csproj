@@ -63,9 +63,9 @@
       <Project>{1e636eb6-ce41-4023-9a17-e2642c216ae4}</Project>
       <Name>BusinessEntiies</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BusniessLogic\IronFramework.MEF.csproj">
+    <ProjectReference Include="..\BusniessLogic\BusniessLogicObject.csproj">
       <Project>{bd859733-e8b9-40da-8623-fc9670f282f4}</Project>
-      <Name>IronFramework.MEF</Name>
+      <Name>BusniessLogicObject</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccessObject\DataAccessObject.csproj">
       <Project>{b2fd47f8-e80b-4614-9d6b-3fd80ab822bc}</Project>
