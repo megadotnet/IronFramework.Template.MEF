@@ -184,9 +184,10 @@ namespace BusinessObject.UnitTest
              //Add more condition
              Expression<Func<Product, bool>> productQueryTotal = null;
 
+             //Connect all where cause the And operation 
              foreach (var expression in list)
              {
-                 productQueryTotal = expression.And(expression);
+                 productQueryTotal = productQueryTotal == null ? expression : productQueryTotal.And(expression);
              }
              return productQueryTotal;
          }
