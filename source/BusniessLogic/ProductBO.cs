@@ -43,7 +43,7 @@ namespace IronFramework.MEF
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
         public bool CreateEntiy(Product t)
         {
-            entiesrepository.Repository.Add(t);
+            entiesrepository.Add(t);
             entiesrepository.Save();
             return true;
         }
@@ -65,7 +65,7 @@ namespace IronFramework.MEF
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
         public bool DelEntiy(Product t)
         {
-            entiesrepository.Repository.Delete(t);
+            entiesrepository.Delete(t);
             entiesrepository.Save();
             return true;
         }
@@ -77,7 +77,7 @@ namespace IronFramework.MEF
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</return
         public bool UpdateEntiy(Product t)
         {
-            entiesrepository.Repository.Save();
+            entiesrepository.Save();
             return true;
         }
 	}

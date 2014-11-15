@@ -90,6 +90,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="IBussinessBase.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>IBussinessBase.cs</LastGenOutput>

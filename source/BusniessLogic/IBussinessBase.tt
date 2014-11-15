@@ -173,7 +173,7 @@ namespace <#= code.VsNamespaceSuggestion() #>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
         public bool CreateEntiy(<#=code.Escape(entity)#> t)
         {
-            entiesrepository.Repository.Add(t);
+            entiesrepository.Add(t);
             entiesrepository.Save();
             return true;
         }
@@ -195,7 +195,7 @@ namespace <#= code.VsNamespaceSuggestion() #>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
         public bool DelEntiy(<#=code.Escape(entity)#> t)
         {
-            entiesrepository.Repository.Delete(t);
+            entiesrepository.Delete(t);
             entiesrepository.Save();
             return true;
         }
@@ -207,7 +207,7 @@ namespace <#= code.VsNamespaceSuggestion() #>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise</return
         public bool UpdateEntiy(<#=code.Escape(entity)#> t)
         {
-            entiesrepository.Repository.Save();
+            entiesrepository.Save();
             return true;
         }
 	}
