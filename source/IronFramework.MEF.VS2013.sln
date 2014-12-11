@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronFramework.MEF.VSIX.V2013", "IronFramework.MEF.VSIX.V2013\IronFramework.MEF.VSIX.V2013.csproj", "{896D6FEF-F559-4054-9370-2DCCF291DB3B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntiies", "BusinessEntiies\BusinessEntiies.csproj", "{1E636EB6-CE41-4023-9A17-E2642C216AE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject.UnitTest", "BusinessObject.UnitTest\BusinessObject.UnitTest.csproj", "{9A7E7C23-D84A-4ED6-9CD0-A6E4C3138825}"
@@ -22,8 +20,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{BC96E421-2DB7-4765-A733-B4B8797B0D66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BD666065-BBBD-40FD-9D61-2A82918BDBE0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSIX", "VSIX", "{D8777D11-4CA9-4664-900A-2C5AA1B15A7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2DB4497-49E9-4EEC-B72D-E1C111395C4F}"
 	ProjectSection(SolutionItems) = preProject
@@ -48,10 +44,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{896D6FEF-F559-4054-9370-2DCCF291DB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{896D6FEF-F559-4054-9370-2DCCF291DB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{896D6FEF-F559-4054-9370-2DCCF291DB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{896D6FEF-F559-4054-9370-2DCCF291DB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E636EB6-CE41-4023-9A17-E2642C216AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E636EB6-CE41-4023-9A17-E2642C216AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E636EB6-CE41-4023-9A17-E2642C216AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,7 +73,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{896D6FEF-F559-4054-9370-2DCCF291DB3B} = {D8777D11-4CA9-4664-900A-2C5AA1B15A7C}
 		{1E636EB6-CE41-4023-9A17-E2642C216AE4} = {4D217B98-7791-4014-B790-19CB15DBD19B}
 		{9A7E7C23-D84A-4ED6-9CD0-A6E4C3138825} = {BC96E421-2DB7-4765-A733-B4B8797B0D66}
 		{46FDA4ED-7556-4B67-AF9A-F3A30E1A95A7} = {BC96E421-2DB7-4765-A733-B4B8797B0D66}
