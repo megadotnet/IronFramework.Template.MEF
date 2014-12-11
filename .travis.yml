@@ -1,3 +1,2 @@
 language: csharp
 solution: source/IronFramework.MEF.VS2013.sln
-script: make build
