@@ -1,3 +1,0 @@
-language: csharp
-solution: IronFramework.MEF.VS2013.sln
-install: make install
