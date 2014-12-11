@@ -10,6 +10,7 @@
 namespace IronFramework.Utility.EntityFramewrok
 {
     using System.Data;
+    using System.Data.Entity;
 
     /// <summary>
     /// The state.
