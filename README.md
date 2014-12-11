@@ -1,5 +1,6 @@
 Iron Framework MEF(Managed Extensibility Framework) Template
 =============
+[![Mono Build Status](https://travis-ci.org/megadotnet/IronFramework.Template.MEF.svg?branch=master)](https://travis-ci.org/megadotnet/IronFramework.Template.MEF)
 
 Domain Driven Design(DDD),Layered architecture,Aspect-oriented programming(AOP) rapid development infrastructure
 
