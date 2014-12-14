@@ -61,6 +61,12 @@ namespace BusinessObject.UnitTest
 
         }
 
+       /// <summary>
+        /// CreateMEFContainer
+       /// </summary>
+       /// <param name="dd"></param>
+       /// <param name="cc"></param>
+       /// <param name="pr"></param>
         private static void CreateMEFContainer(out IRepository<Product> dd, out IRepository<Categroy> cc, out ProductRepository pr)
         {
             var picker = new RegistrationBuilder();
