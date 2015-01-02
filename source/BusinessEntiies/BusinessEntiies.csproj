@@ -55,8 +55,19 @@
     <Compile Include="Categroy.cs">
       <DependentUpon>Someone.tt</DependentUpon>
     </Compile>
+    <Compile Include="CategroyDto.cs">
+      <DependentUpon>DTOGenerator.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTOGenerator.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTOGenerator.tt</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <DependentUpon>Someone.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDto.cs">
+      <DependentUpon>DTOGenerator.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Someone.Context.cs">
@@ -74,6 +85,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Model\UIPaging.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Someone.edmx">
@@ -83,6 +95,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <None Include="DTOGenerator.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DTOGenerator.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="Someone.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
