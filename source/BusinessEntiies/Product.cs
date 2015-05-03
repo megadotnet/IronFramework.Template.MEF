@@ -9,16 +9,20 @@
 
 namespace BusinessEntiies
 {
-    using System;
+    using System;using IronFramework.Utility.EntityFramewrok;
     using System.Collections.Generic;
     
-    public partial class Product
+    public partial class Product:IEntity
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
         public Nullable<System.DateTime> UpdatedTime { get; set; }
         public int CategoryId { get; set; }
     
+        #region IEntity Members
+            public State State { get; set; } 
+        #endregion
+          
         public virtual Categroy Categroy { get; set; }
     }
 }

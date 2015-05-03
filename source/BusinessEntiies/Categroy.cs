@@ -9,10 +9,10 @@
 
 namespace BusinessEntiies
 {
-    using System;
+    using System;using IronFramework.Utility.EntityFramewrok;
     using System.Collections.Generic;
     
-    public partial class Categroy
+    public partial class Categroy:IEntity
     {
         public Categroy()
         {
@@ -23,6 +23,10 @@ namespace BusinessEntiies
         public string Name { get; set; }
         public System.DateTime UpdatedTime { get; set; }
     
+        #region IEntity Members
+            public State State { get; set; } 
+        #endregion
+          
         public virtual ICollection<Product> Product { get; set; }
     }
 }

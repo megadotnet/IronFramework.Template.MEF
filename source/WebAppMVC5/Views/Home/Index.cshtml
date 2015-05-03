@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Iron framework</title>
+    <link href="@Url.Content("~/Content/shared/suite.css")" rel="stylesheet">
+    <style>
+        #page > h2 {
+            padding: 2em 0 0;
+        }
+
+        .box h2 a:hover {
+            text-decoration: none;
+        }
+
+        .box h2 span {
+            display: block;
+            font-size: .7em;
+        }
+
+        #page > ul > li.box {
+            clear: none;
+            display: inline-block;
+            float: none;
+            min-width: 290px;
+            max-width: 300px;
+        }
+
+        hr {
+            height: 1px;
+            line-height: 1px;
+            background: #DFDFDF;
+            border: 0;
+        }
+
+        #page .suite .imgPlate,
+        #page .suite .box {
+            border-width: 0;
+            box-shadow: none;
+        }
+
+        #page .suite {
+            text-align: center;
+        }
+
+            #page .suite .box h2 {
+                margin-top: 1em;
+            }
+    </style>
+</head>
+<body>
+    <h1 class="header">Iron Framework</h1>
+    <div id="page">
+        <div class="suites">
+            <div class="suite-column">
+                <h2><a href='@(Url.Content("~/Razor/grid/foreignkeycolumn"))'>DataGrid</a></h2>
+     
+            </div>
+        </div>
+    </div>
+</body>
+</html>
