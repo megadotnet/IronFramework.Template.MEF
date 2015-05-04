@@ -859,11 +859,10 @@
     <Content Include="Content\web\fx\zoom\background.png" />
     <Content Include="Content\web\fx\zoom\lysa.png" />
     <Content Include="Content\web\fx\zoom\mathew.png" />
+    <Content Include="Scripts\cultures\kendo.culture.zh-CN.min.js" />
     <Content Include="Content\web\globalization\cultures\kendo.culture.bg-BG.js" />
-    <Content Include="Content\web\globalization\cultures\kendo.culture.de-DE.js" />
     <Content Include="Content\web\globalization\cultures\kendo.culture.en-GB.js" />
     <Content Include="Content\web\globalization\cultures\kendo.culture.en-US.js" />
-    <Content Include="Content\web\globalization\cultures\kendo.culture.fr-FR.js" />
     <Content Include="Content\web\grid\clientsDb.png" />
     <Content Include="Content\web\HighContrast\editor.png" />
     <Content Include="Content\web\HighContrast\imagebrowser.png" />
