@@ -12,8 +12,9 @@ namespace WebAppMVC5
 
             bundles.Add(new ScriptBundle("~/bundles/kendo").Include(
                         "~/Scripts/kendo.all.min.js",
-                        "~/Scripts/kendo.aspnetmvc.min.js",
-                        "~/Scripts/kendo.timezones.min.js"));
+                       // "~/Scripts/kendo/kendo.timezones.min.js", // uncomment if using the Scheduler
+                        "~/Scripts/kendo.aspnetmvc.min.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/demo").Include(
                         "~/Scripts/console.js"));
@@ -24,8 +25,7 @@ namespace WebAppMVC5
                         "~/Content/web/kendo.default.min.css",
                         "~/Content/web/kendo.default.mobile.min.css",
                         "~/Content/dataviz/kendo.dataviz.min.css",
-                        "~/Content/dataviz/kendo.dataviz.default.min.css",
-                        "~/Content/mobile/kendo.mobile.all.min.css"));
+                        "~/Content/dataviz/kendo.dataviz.default.min.css"));
 
 
             bundles.Add(new StyleBundle("~/Content/mobile/css").Include(
@@ -34,6 +34,7 @@ namespace WebAppMVC5
             bundles.Add(new StyleBundle("~/Content/shared/css").Include(
                         "~/Content/shared/examples-offline.css"));
 
+            //Tell ASP.NET bundles to allow minified files in debug mode.
             bundles.IgnoreList.Clear();
         }
     }

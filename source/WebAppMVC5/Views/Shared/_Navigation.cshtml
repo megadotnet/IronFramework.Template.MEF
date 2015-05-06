@@ -6,9 +6,84 @@
     var action = routeData.Values["action"].ToString().Replace("_", "-");
     var currentArea = area == "aspx" ? "ASPX" : "Razor";
     var currentRoute = currentArea + "Default";
-   // var alternateArea = area == "aspx" ? "Razor" : "ASPX";
-    //var alternateRoute = alternateArea + "Default";
 }
 
-<a class="offline-button" href="@(Url.RouteUrl(currentRoute, new { controller = "", action = "" }))">Back to Main</a>
-@*<a class="offline-button" href="@(Url.RouteUrl(alternateRoute, new { suite = suite, controller = controller, action = action }))">@alternateArea version</a>*@
+@(Html.Kendo().Menu()
+      .Name("Menu")
+      .Items(items =>
+      {
+          items.Add()
+              .Text("Software Design & Development")
+              .Items(children =>
+               {
+                   children.Add().Text("ERP");
+                   children.Add().Text("Mobile App");
+                   children.Add().Text("RealTimeApp");
+
+                   children.Add().Text("WebApp")
+                           .Items(innerChildren =>
+                           {
+                               innerChildren.Add().Text("CMS");
+                               innerChildren.Add().Text("Portal");
+                           });
+
+                   children.Add().Text("Desktop")
+                           .Items(innerChildren =>
+                           {
+                               innerChildren.Add().Text("WindowsForm");
+                               innerChildren.Add().Text("WPF");
+                               innerChildren.Add().Text("AIR");
+                           });
+               });
+
+          items.Add().Text("Enterprise IT")
+               .Items(children =>
+               {
+                   children.Add().Text("Workflow");
+                   children.Add().Text("EAI");
+               });
+
+
+          items.Add().Text("Blog").Url("http://www.cnblogs.com/wintersun").LinkHtmlAttributes(new { target = "_blank" }); 
+          items.Add().Text("Company").Url("https://github.com/megadotnet").LinkHtmlAttributes(new { target = "_blank" }); 
+          items.Add().Text("Events");
+          items.Add().Text("News");
+      })
+)
+
+<style>
+    #menu h2 {
+        font-size: 1em;
+        text-transform: uppercase;
+        padding: 5px 10px;
+    }
+
+    #template img {
+        margin: 5px 20px 0 0;
+        float: left;
+    }
+
+    #template {
+        width: 380px;
+    }
+
+        #template ol {
+            float: left;
+            margin: 0;
+            padding: 10px 10px 0 10px;
+        }
+
+        #template:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        #template .k-button {
+            float: left;
+            clear: left;
+            margin: 5px 0 5px 12px;
+        }
+</style>
