@@ -193,9 +193,9 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\GridController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\IProductService.cs" />
+    <Compile Include="Controllers\Service\IProductService.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ProductService.cs" />
+    <Compile Include="Controllers\Service\ProductService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
