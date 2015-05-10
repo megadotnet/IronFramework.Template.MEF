@@ -405,8 +405,6 @@
     <Content Include="Content\shared\flat.png" />
     <Content Include="Content\shared\fonts\demos.svg" />
     <Content Include="Content\shared\fonts\DroidSansWeb.svg" />
-    <Content Include="Content\shared\fonts\FaktSlabPro-Medium.svg" />
-    <Content Include="Content\shared\fonts\MetricWeb-Semibold.svg" />
     <Content Include="Content\shared\fonts\Roboto-LightWeb.svg" />
     <Content Include="Content\shared\fonts\Roboto-Regular-Web.svg" />
     <Content Include="Content\shared\fonts\widgets-v1.svg" />
@@ -1298,13 +1296,6 @@
     <Content Include="Content\shared\fonts\DroidSansWeb.eot" />
     <Content Include="Content\shared\fonts\DroidSansWeb.ttf" />
     <Content Include="Content\shared\fonts\DroidSansWeb.woff" />
-    <Content Include="Content\shared\fonts\FaktSlabPro-Medium.eot" />
-    <Content Include="Content\shared\fonts\FaktSlabPro-Medium.otf" />
-    <Content Include="Content\shared\fonts\FaktSlabPro-Medium.ttf" />
-    <Content Include="Content\shared\fonts\FaktSlabPro-Medium.woff" />
-    <Content Include="Content\shared\fonts\MetricWeb-Semibold.eot" />
-    <Content Include="Content\shared\fonts\MetricWeb-Semibold.ttf" />
-    <Content Include="Content\shared\fonts\MetricWeb-Semibold.woff" />
     <Content Include="Content\shared\fonts\Roboto-LightWeb.eot" />
     <Content Include="Content\shared\fonts\Roboto-LightWeb.ttf" />
     <Content Include="Content\shared\fonts\Roboto-LightWeb.woff" />

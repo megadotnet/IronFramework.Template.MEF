@@ -1,18 +1,4 @@
-/*reset*/
-/* h1 font */
-@font-face {
-  font-family: "MetricWeb-Semibold";
-  src: url("fonts/MetricWeb-Semibold.eot");
-  src: url("fonts/MetricWeb-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/MetricWeb-Semibold.woff") format("woff"), url("fonts/MetricWeb-Semibold.ttf") format("truetype"), url("fonts/MetricWeb-Semibold.svg#MetricWeb-Semibold") format("svg");
-}
-
-/* h2, h3 font */
-@font-face {
-  font-family: "FaktSlabPro-Medium";
-  src: url("fonts/FaktSlabPro-Medium.eot");
-  src: url("fonts/FaktSlabPro-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/FaktSlabPro-Medium.woff") format("woff"), url("fonts/FaktSlabPro-Medium.ttf") format("truetype"), url("fonts/FaktSlabPro-Medium.svg#FaktSlabPro-Medium") format("svg");
-}
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /* New font */
 @font-face {
@@ -70,11 +56,11 @@
 /* Widgets icons font */
 @font-face {
   font-family: 'widgets';
-  src: url('fonts/widgets-v1.eot');
-  src: url('fonts/widgets-v1.eot') format('embedded-opentype'),
-       url('fonts/widgets-v1.woff') format('woff'),
-       url('fonts/widgets-v1.ttf') format('truetype'),
-       url('fonts/widgets-v1.svg') format('svg');
+  src: url('fonts/widgets-v2.eot');
+  src: url('fonts/widgets-v2.eot?#iefix') format('embedded-opentype'),
+       url('fonts/widgets-v2.woff') format('woff'),
+       url('fonts/widgets-v2.ttf') format('truetype'),
+       url('fonts/widgets-v2.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -615,6 +601,8 @@ div.submenu-box ol {
 .chartRangeBarIcon:after { content: '\e846'; }
 .chartWaterfallIcon:after { content: '\e847'; }
 .comboBoxIcon:after { content: '\e848'; }
+.responsivePanelIcon:after { content: '\e849'; }
+.mobileCollapsibleIcon:after { content: '\e84A'; }
 
 .mobile + .widgetOverview #exampleTitle
 {
@@ -713,6 +701,7 @@ div.submenu-box ol {
 {
     float: left;
     width: 160px;
+    overflow: hidden;
     margin-right: 15px;
     border-width: 0;
     background: none;
@@ -722,8 +711,7 @@ div.submenu-box ol {
 {
     -webkit-columns: 5;
     -moz-columns: 5;
-    columns: 5;
-    width: 100%;
+    width: 780px;
 }
 
 .tc-column h4+ul
@@ -733,7 +721,7 @@ div.submenu-box ol {
 
 .tc-item
 {
-    display: block;
+    display: inline-block;
     width: 132px;
     cursor: pointer;
     line-height: 26px;
@@ -1600,7 +1588,9 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { background: #eee; }
 }
 
 #device-wrapper.android-dark,
-#device-wrapper.android-light {
+#device-wrapper.android-light,
+#device-wrapper.material-dark,
+#device-wrapper.material-light{
     background-image: url("nexus.png");
 }
 
@@ -1614,8 +1604,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { background: #eee; }
 }
 
 #device-wrapper.flat,
-#device-wrapper.material,
-#device-wrapper.materialblack {
+#device-wrapper.material {
     background-image: url("flat.png");
 }
 
@@ -1800,6 +1789,22 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { background: #eee; }
 .mobileExample .km-pane-wrapper .k-pager-info
 {
     display: none;
+}
+
+.mobileExample .km-pane-wrapper .k-pager-numbers .k-current-page,
+.mobileExample .km-pane-wrapper .k-scheduler-toolbar > ul.k-scheduler-views > li.k-current-view {
+    display: none;
+}
+
+.mobileExample .km-pane-wrapper .k-pager-numbers {
+    position: static;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    transform: translatey(0);
+}
+
+.mobileExample .km-pane-wrapper .k-scheduler-toolbar > ul.k-scheduler-views > li {
+    display: table-cell;
 }
 
 #example .km-wp .km-tabstrip .km-button,
@@ -2713,7 +2718,7 @@ a.footer-links:hover,
 
 #overview h2 {
     color: #000;
-    font: 400 28px/1 "FaktSlabPro-Medium", Arial, Helvetica, sans-serif;
+    font: 400 28px/1 "Roboto Slab", Arial, Helvetica, sans-serif;
     text-align: left;
     padding: 2.5em 0 0.700em 0;
 }
@@ -2844,7 +2849,19 @@ h5 {
     margin-bottom: 34px;
 }
 
- #overview-widgets h2 strong {
+#most-popular p {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    width: 180px;
+    padding: 43px 0 0 20px;
+}
+
+#mobileDemosQR {
+    margin: 20px 0 0 20px;
+}
+
+#overview-widgets h2 strong {
     font-weight: normal;
 }
 
@@ -2931,11 +2948,6 @@ h5 {
 html.k-flat .demo-section.k-header {
   background-color: #fff;
   color: #4c5356;
-}
-
-html.k-material #example,
-html.k-materialblack #example {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 html.k-material .demo-section.k-header,
