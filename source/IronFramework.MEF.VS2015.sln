@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC5.Tests", "WebAppM
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "IronFramework.UMLModel", "IronFramework.UMLModel\IronFramework.UMLModel.modelproj", "{523C5DEE-F134-4803-8FDE-97D4D29B8FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronFramework.VSIXForVS2015", "VSIXProject1\IronFramework.VSIXForVS2015.csproj", "{F18B379F-25DC-4C03-9739-3C0DAF2649D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronFramework.VSIXForVS2015", "IronFramework.VSIXForVS2015\IronFramework.VSIXForVS2015.csproj", "{F18B379F-25DC-4C03-9739-3C0DAF2649D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
