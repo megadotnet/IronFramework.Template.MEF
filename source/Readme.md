@@ -8,4 +8,4 @@ Should balance MEF as IOC container with cutting-concern perspective feature.
 
 
 ----------------------------------------------------------
-Tips: UnitTest only support MSTest.
+Tips: UnitTest only support MSTest Currently.
