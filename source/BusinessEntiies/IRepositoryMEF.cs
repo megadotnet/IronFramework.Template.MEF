@@ -1,10 +1,10 @@
 ﻿
 // --------------------------------------------------------------------------------------------------------------------
 // <copyright file="IRepository.cs" company="Megadonet">
-//   Copyright (c) 2010-2013 Peter Liu.  All rights reserved. 
+//   Copyright (c) 2010-2017 Peter Liu.  All rights reserved. 
 // </copyright>
 // <summary>
-//   a interface of data acccess repository.
+//   A interface of data acccess repository for MEF 
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
